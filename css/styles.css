@@ -1,0 +1,158 @@
+/****************************************************************TYPE SELECTORS****************************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #F26389;
+  font-family: 'Cookie', cursive;
+  font-size: 6rem;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #F26389;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #414059;
+  font-family: 'Kaisei HarunoUmi', serif;
+}
+
+a {
+  color: #81A68E;
+  font-family: 'Kaisei HarunoUmi', serif;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+ a:hover{
+   color: #F26389;
+ }
+hr {
+  border-style: dotted none none;
+  border-color: #F2AEAE;
+  border-width: 6px;
+  width: 5%;
+  margin: 80px auto 75px;
+  clear: right;
+}
+
+p {
+  line-height: 2;
+}
+
+/***************************************************************CLASS SELECTORS***************************************************/
+.top-container {
+  background-color: #F2F2F2;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #F2F2F2;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.learning {
+  text-decoration: underline;
+}
+
+.flower {
+  width: 20%;
+  position: absolute;
+  left: 100px;
+  bottom: 97px;
+}
+
+.balloon {
+  width: 20%;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+}
+
+.teaching {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+.designing {
+  width: 35%;
+  float: right;
+  margin-right: 30px;
+}
+
+.mari {
+  width: 35%;
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.BUTTON_PHG {
+  background: #81A68E;
+  background-image: -webkit-linear-gradient(top, #81A68E, #597362);
+  background-image: -moz-linear-gradient(top, #81A68E, #597362);
+  background-image: -ms-linear-gradient(top, #81A68E, #597362);
+  background-image: -o-linear-gradient(top, #81A68E, #597362);
+  background-image: -webkit-gradient(to bottom, #81A68E, #597362);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #F2F2F2;
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 19px;
+  font-weight: 100;
+  padding: 10px 20px;
+  border: solid #81A68E 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_PHG:hover {
+  border: solid #81A68E 1px;
+  background: #81A68E;
+  background-image: -webkit-linear-gradient(top, #81A68E, #81A68E);
+  background-image: -moz-linear-gradient(top, #81A68E, #81A68E);
+  background-image: -ms-linear-gradient(top, #81A68E, #81A68E);
+  background-image: -o-linear-gradient(top, #81A68E, #81A68E);
+  background-image: -webkit-gradient(to bottom, #81A68E, #81A68E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #F2F2F2;
+  text-decoration: none;
+}
+
+.copy {
+  color: #414059;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
